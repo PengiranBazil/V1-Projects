@@ -1,0 +1,33 @@
+
+body {
+  background-color: #18173B;
+}
+
+.theuniverse {
+  font-family: 'Staatliches';
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns:1fr 1fr 1fr; /*Make the grid smaller than the container*/
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.grid-container>div {
+  position: relative;
+}
+
+.buttons {
+  padding: 20px;
+  width: 90px;
+}
+
+.buttons:hover {
+  padding: 17px;
+  width: 93px;
+}
